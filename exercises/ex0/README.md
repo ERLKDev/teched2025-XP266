@@ -6,32 +6,50 @@ And finally login to your for this session prepared BTP subaccount.
 
 ## Exercice 0.2 - (Optional) Create a GitHub account
 
-1. Something
+1. Navigate to [GitHub](https://github.com/).
+
+2. Click **Sign up for GiHhub**.
+
+3. Alternatevly, click on **Continue with Google** to sign up using social login.
+
+4. Follow the prompts to create your personal account.
 
 ## Exercice 0.3 - Create a Copy of This Repository
 
-1. On the [main page of this repository](https://github.com/SAP-samples/cap-sflight), choose **Fork** on the top right.
+1. Login to [GitHub](https://github.com/).
 
-1. Make sure that the **Owner** matches the GitHub account that you want to use for this session. All the other information can remain the same.
+2. On the [main page of this repository](https://github.com/SAP-samples/teched2025-XP266), choose **Fork** on the top right.
+
+   <br>![](../ex0/images/fork_entry.png)
+
+3. Make sure that the **Owner** matches the GitHub account that you want to use for this session. All the other information can remain the same.
 
    <br>![](../ex0/images/fork_details.png)
 
-1. Choose **Create Fork**. You are now brought to a copy of the repository in your GitHub account.
+4. Choose **Create Fork**. You are now brought to a copy of the repository in your GitHub account.
 
-# Execise 0.4 - Login to your BTP subaccount
+## Execise 0.4 - Login to your BTP subaccount
 
-1. Login
+1. Navigate to the [SAP Business Technology Platform - Cockpit](https://account.hana.ondemand.com/#/home/welcome)
 
-2. Check subaccounts
+2. Click "Sign In" and enter the for this session provided user credentials
 
-3. Go to each account....check services...
+3. After the BPT Cockpit has been loaded, you should see following account structure:
+
+| Account Name              | Type        |                                                                                                                                Description |
+| :------------------------ | :---------: | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| XP266_CALM                |  Shared     | This BTP subaccount includes are instance of SAP Cloud ALM, which will be shared by all participants of this hands-on session.             |
+| XP266_CENTRAL             |  Deticated  | The BTP subaccount named **CENTRAL** contains central services and acts as an central administrative subaccount.                           |
+| XP266_DEV                 |  Deticated  | In this BTP subaccount **DEV** development is done. It contains instances of SAP Build, SAP Content Agent services and SAP Mobile Services.|
+| XP266_QA                  |  Deticated  | **QA** is one of the target BTP subaccounts where transport requests will be deployed to during this session.                              |
+| XP266_PROD                |  Deticated  | **PROD** is one of the target BTP subaccounts where transport requests will be deployed to during this session.                            |
 
 ## Summary
 
 Now that you have everything you need to successfully go through this TechEd session:
 
-- A GitHub account
-- Your own fork of the session's GitHub repository
-- A BTP subaccount with the correct prepared setup
+- A GitHub account.
+- Your own fork of the session's GitHub repository.
+- A BTP global account with prepare subaccounts.
 
 Continue to [Set up your Delivery Pipeline and Transport Landscape](../ex1/README.md)
