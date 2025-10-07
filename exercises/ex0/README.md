@@ -36,7 +36,7 @@ At the end, you will access the SAP BTP cockpit and SAP BTP accounts that have b
 
 3. After the BPT Cockpit has been loaded, you should see following account structure:
 
-| Account Name              | Type        |                                                                                                                                Description |
+| Subaccount Name              | Type        |                                                                                                                                Description |
 | :------------------------ | :---------: | :----------------------------------------------------------------------------------------------------------------------------------------- |
 | XP266_CALM                |  Shared     | This BTP subaccount includes an instance of SAP Cloud ALM, which will be shared by all participants of this hands-on session.             |
 | XP266_CENTRAL             |  Dedicated  | The BTP subaccount named **CENTRAL** contains central services and acts as a central administrative subaccount.                           |
