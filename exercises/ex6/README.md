@@ -78,10 +78,10 @@ This concludes your deployment to production. **Awesome!**
     <br>![alt text](../ex6/images/bookshop_srv.png)
 3. Go to **Application Routes** and click the link below.
 
-    br>![alt text](../ex6/images/bookshop_app.png)
+    <br>![alt text](../ex6/images/bookshop_app.png)
 4. Click on **/admin-books/webapp/index.html** and verify that the new entries appear.
 
-    br>![alt text](../ex6/images/verify_book_entries.png)
+    <br>![alt text](../ex6/images/verify_book_entries.png)
 5. Now verify the same for your Mobile Services app.
 
 6. After validating the correctness you can **confirm your Feature** in SAP Cloud ALM **by clicking "Confirm Deployment"**.
